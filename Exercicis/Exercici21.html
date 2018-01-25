@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Información sobre el producto</title>
+</head>
+<body>
+    <h1>Información sobre el producto</h1>
+    <form name="CV" action="http://daw.iesjoaquimmir.cat/sarti.php" method="post">
+    </form>
+    <fieldset>
+        <legend>Datos básicos</legend>
+        <label for="idnombre">Nombre</label><br>
+        <input id="idnombre" type="text" name="Nombre" size=30/><br>
+        <label for="Descripcion">Descripción</label><br>
+        <textarea name="comentarios" rows="5" cols="20"></textarea><br>
+        <label for="post" ac7on="agente.php" enctype="mul7part/form-data">
+            Foto <input name="imagen" type="file" /><br><br>
+        <label for="post" action="agente.php">
+                 <input name="suscribirme" type="checkbox" />Añadir contador de visitas<br /><br>
+    </fieldset>
+    <fieldset>
+        <legend>Datos económicos</legend>
+        <label for="precio">Precio</label>
+        <input id="precio" type="text" name="Precio" size=5> €
+        <label for="impuestos">Impuestos</label>
+        <select name="entradalista">
+            <optgroup label="Porcentaje" size="10">
+                <option value="-1"></option>
+                <option>4%</option>
+                <option>7%</option>
+                <option>16%</option>   
+            </optgroup><br></br>
+        </select><br>
+        <label for="promocion">Promoción</label><br>
+        <input name="promocion" type="radio" value="Ninguno" />Ninguno <br/>
+        <input name="promocion" type="radio" value="Transporte gratuito" />Transporte gratuito </br><br>
+    </fieldset>
+</body>
+</html>

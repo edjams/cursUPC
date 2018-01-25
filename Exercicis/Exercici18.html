@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form name="CV" action="http://daw.iesjoaquimmir.cat/sarti.php" method="post">
+    <form method="post" action="gestor.php">
+        <fieldset>
+            <legend>Rellena tu CV</legend>
+            <label for="idnombre">Nombre</label><br>
+            <input id="idnombre" type="text" name="Nombre"/><br/>
+            <label for="idapellidos">Apellidos</label><br>
+            <input id="idapellidos" type="text" name="apellidos" size="40"/><br/>
+            <label for="idcontraseña">Contraseña</label><br>
+            <input id="idcontraseña" type="text" name="contraseña"/><br/>
+            <label for="idDNI">DNI</label><br>
+            <input id="idDNI" type="text" name="DNI" size="10"/><br/>
+            
+            <label for="sexo">Sexo</label><br />
+                <input name="Sexo" type="radio" value="hombre" />Hombre <br/>
+                <input name="Sexo" type="radio" value="mujer" />Mujer </br><br>
+            <label for="post" ac7on="agente.php" enctype="mul7part/form-data">
+                    Incluir mi foto <input name="imagen" type="file" /><br><br>
+
+            <label for="post" action="agente.php">
+                <input name="suscribirme" type="checkbox" />Suscribirme al boletín de novedades<br /><br>
+
+                <label for="post" action="agente.php"> <button type="button">
+                        Guardar cambios </button>
+                <label for="post" action="agente.php"> <button type="button">
+                                Borrar los datos introducidos </button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

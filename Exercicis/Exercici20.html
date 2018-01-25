@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form name="CV" action="http://daw.iesjoaquimmir.cat/sarti.php" method="post">
+    <form method="post" action="gestor.php">
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="idnombre">Provincia</label><br>
+        <select name="entradalista">
+            <optgroup label="Península">
+                <option>Barcelona</option>
+                <option selected="selected">Baleares</option> 
+                <option>Canarias</option>
+            </optgroup>  
+        </select>
+        <br><br>
+        <label for="fecha">Fecha de nacimiento</label><br>
+        <input id="iddia" type="text" name="dia" size="5"/> de 
+        <select name="entradalista">
+            <optgroup label="Meses" size="10">
+                <option>Enero</option>
+                <option>Febrero</option>
+                <option>Etc</option>
+            </optgroup>
+            </select>
+            de 
+            <input id="id_año" type="text" name="año" size="8">
+            <br><br>
+        <label for="fecha">Tema de interés</label><br>
+        <textarea name="comentarios" rows="2" cols="20">
+        ADE
+        Análisis
+        Calité
+        </textarea>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*Título principal en verde */
+h1#titulo { color: #555; }
+ 
+/* Strong en un párrafo será rojo */
+p strong { color: #336699; } 
+
+/* Destacado en amarillo*/
+span.destacado { color: azul}
+ 
+/* Subtítulo en azul */
+h2#subtitulo { color: rgb(40, 64, 199); }
+ 
+/* enlaces subtitulo en azul */
+#subtitulo a { background: #FFFFCC; padding: .1em; }
+
+a {color: blueviolet}
+
+p span.especial {color: greenyellow}
+
+/* enlaces adicional en azul */
+div#adicional a { background: #FFFFCC; padding: .1em; }
+ 
+/* elements taula */
+table, th, tr, td { border: 1px solid black;
+                    border-collapse: collapse;
+                    padding: 5px;
+
+}
+caption {color: blue;}
+td{color: red;}
+td strong{color:green;}
+th{color: purple;}
+th.especial{color: orange;}
